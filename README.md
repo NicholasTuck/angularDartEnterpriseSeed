@@ -7,6 +7,7 @@ This is a seed project to kickstart a new project.  This is not the only setup o
 * Download and Install Dart SDK: [dartlang.org/tools/download.html](https://www.dartlang.org/tools/download.html)
   * add the dart/dart-sdk/bin to path
 * Download and Install SASS: [http://sass-lang.com/install](http://sass-lang.com/install)
+  * A pull request has been done for a windows fix to look for sass.bat by default.  If there are problems though you can do the following override
   * for windows change the pubspect.yaml to add the following:
 
 ```
