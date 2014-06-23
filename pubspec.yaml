@@ -1,4 +1,4 @@
-name: siris_next_gen
+name: angular_dart_enterprise_seed
 version: 0.0.1
 environment:
   sdk: ">=1.4.2"
@@ -14,5 +14,6 @@ dev_dependencies:
   dart_to_js_script_rewriter: ">=0.0.1+2 <0.1.0"
   sass: ">=0.3.0 <0.4.0"
 transformers:
-- [angular, sass]
+- angular
+- sass
 - dart_to_js_script_rewriter

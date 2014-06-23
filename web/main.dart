@@ -2,14 +2,14 @@ import 'package:angular/angular.dart';
 import 'package:angular/application_factory.dart';
 
 
-class SirisNextGenModule extends Module {
-  SirisNextGenModule() {
+class AngularDartEnterpriseSeedModule extends Module {
+  AngularDartEnterpriseSeedModule() {
 
   }
 }
 
 void main() {
   applicationFactory()
-    .addModule(new SirisNextGenModule())
+    .addModule(new AngularDartEnterpriseSeedModule())
     .run();
 }
